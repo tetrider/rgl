@@ -1,0 +1,7 @@
+cffi==1.11.5
+libtcod-cffi==5.0.0
+numpy==1.15.4
+pkg-resources==0.0.0
+pycparser==2.19
+tcod==8.2.0
+tdl==6.0.0
