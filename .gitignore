@@ -1,5 +1,7 @@
 env/
 .env
 .git
-__pycache__/
+*.pyc
+*.swp
+__pycache__
 !/__pycache__/
