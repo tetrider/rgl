@@ -1,6 +1,6 @@
-from enum import Enum
+from enum import Enum, auto
 
 
 class GameStates(Enum):
-    PLAYERS_TURN = 1
-    ENEMY_TURN = 2
+    PLAYERS_TURN = auto()
+    ENEMY_TURN = auto()
