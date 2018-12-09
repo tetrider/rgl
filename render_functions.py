@@ -62,6 +62,8 @@ def render_all(con, panel, entities, player, game_map, fov_map,
                         color = 'dark_wall'
                     else:
                         color = 'dark_ground'
+                else:
+                    color = 'black'
                 if color:
                     libtcod.console_set_char_background(con, x, y,
                                                         colors.get(color),
